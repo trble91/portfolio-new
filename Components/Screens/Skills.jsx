@@ -11,7 +11,30 @@ export default function Skills() {
         </h3>   
         <div>
           <div>
-          
+         <ul>
+          <p>Tech Stacks</p>
+          <li>Javascript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Python</li>
+          <li>PostgreSQL</li>
+          </ul>
+         <ul>
+         <p>Tech Stacks</p>
+          <li>Javascript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Python</li>
+          <li>PostgreSQL</li>
+          </ul>
+         <ul>
+         <p>Tech Stacks</p>
+          <li>Javascript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Python</li>
+          <li>PostgreSQL</li>
+          </ul>
           </div>
         </div> 
     </motion.div>
