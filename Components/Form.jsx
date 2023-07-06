@@ -1,18 +1,37 @@
-import React from 'react'
+import React from 'react';
+import { motion } from 'framer-motion';
 
 export default function Form() {
   return (
-    <form action="/api/form" method="post" className='text-gray-500 text-2xl sm:text-gray-500'>
+    <>
+    <motion.div 
+     initial={{
+        x: -500,
+        opacity: 0,
+        scale: 0.5,
+        }}
+      animate={{
+        x: 0,
+        opacity: 1,
+        scale: 1,
+        }}
+      transition={{
+        duration: 0.9,
+        }}
+    className=''>
+    <form action="/api/form" method="post" className='text-gray-400 text-2xl sm:text-gray-100'>
       <label htmlFor="first">First Name</label>
-      <input type="text" id="first" name="first" required className='text-gray-100 bg-gray-400 rounded-lg uppercase'/>
+      <input type="text" id="first" name="first" required className='text-gray-400 bg-gray-100 rounded-lg uppercase'/>
  
       <label htmlFor="last" >Last Name</label>
-      <input type="text" id="last" name="last" required className='text-gray-100 bg-gray-400 rounded-lg uppercase'/>
+      <input type="text" id="last" name="last" required className='text-gray-400 bg-gray-100 rounded-lg uppercase'/>
       
       <label htmlFor="email" >Email</label>
-      <input type="email" id="email" name="email" required className='text-gray-100 bg-gray-400 rounded-lg'/>
-      <textarea className='text-gray-100 bg-gray-400 rounded-lg mt-5'/>
-      <button type="submit" className='text-gray-100 bg-gray-400 rounded-2xl mt-5 p-1 pr-2 pl-2'>Submit</button>
+      <input type="email" id="email" name="email" required className='text-gray-100 bg-gray-100 rounded-lg'/>
+      <textarea className='text-gray-100 bg-gray-100 rounded-lg mt-5'/>
+      <button type="submit" className="bg-gray-100 hover:bg-gray-300 text-gray-400 text-lg font-semibold uppercase py-2 px-4 border rounded-2xl border-gray-400 shadow mt-5 p-1 pr-2 pl-2">Submit</button>
     </form>
+    </motion.div>
+    </>
   )
 }
