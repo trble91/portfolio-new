@@ -22,17 +22,17 @@ export default function Header() {
             className="flex flex-row items-center">
             <SocialIcon 
                 url="https://www.github.com"
-                fgColor="gray"
+                fgColor="grey"
                 bgColor="transparent" />
 
             <SocialIcon 
                 network="email"
-                fgColor="gray"
+                fgColor="grey"
                 bgColor="transparent" />
 
             <SocialIcon 
                 url="https://www.linkedin.com"
-                fgColor="gray"
+                fgColor="grey"
                 bgColor="transparent" />
         </motion.div>
         {/* <motion.div 
