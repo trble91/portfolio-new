@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className="snap-mandatory min-h-screen">
       <Header />
-      {/* <Homepage /> */}
+      <Homepage />
       <AboutMe />
       <Projects />
       <Experiences />
