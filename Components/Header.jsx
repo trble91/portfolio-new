@@ -32,7 +32,7 @@ export default function Header() {
                 bgColor="transparent" />
 
             <SocialIcon 
-                url="https://www.linkedin.com"
+                url="https://www.linkedin.com/in/daleyaaron"
                 fgColor="grey"
                 bgColor="transparent" />
         </motion.div>

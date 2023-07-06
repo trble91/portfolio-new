@@ -9,34 +9,24 @@ export default function Skills() {
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
             Skills
         </h3>   
-        <div>
-          <div>
+        <div className='flex absolute flex-row text-gray-500 text-md top-18 items-center max-w-600px px-10]'>
          <ul>
-          <p>Tech Stacks</p>
           <li>Javascript</li>
           <li>React</li>
           <li>Node.js</li>
           <li>Python</li>
           <li>PostgreSQL</li>
-          </ul>
-         <ul>
-         <p>Tech Stacks</p>
-          <li>Javascript</li>
-          <li>React</li>
-          <li>Node.js</li>
+          <li>Tailwind</li>
+          <li>CSS</li>
+          <li>SCSS</li>
           <li>Python</li>
-          <li>PostgreSQL</li>
-          </ul>
-         <ul>
-         <p>Tech Stacks</p>
-          <li>Javascript</li>
-          <li>React</li>
-          <li>Node.js</li>
-          <li>Python</li>
-          <li>PostgreSQL</li>
-          </ul>
-          </div>
-        </div> 
+          <li>Framer-Motion</li>
+          <li>Flask</li>
+          <li>Django</li>
+          <li>MongoDB</li>
+         </ul>
+        </div>
+
     </motion.div>
     </>
   )

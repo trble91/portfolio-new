@@ -10,6 +10,7 @@ import Skills from "@/Components/Screens/Skills.jsx";
 import Homepage from "@/Components/Screens/Homepage.jsx";
 import Contact from '@/Components/Screens/Contact.jsx';
 // import Circles from '@/Components/Circles.jsx';
+import Footer from '@/Components/Footer.jsx'
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       {/* <Contact /> */}
       {/* <Circles /> */}
     </main>
+    <Footer />
     </>
   )
 }
