@@ -1,24 +1,7 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 
 export default function Form() {
   return (
-    <>
-    <motion.div 
-     initial={{
-        x: -500,
-        opacity: 0,
-        scale: 0.5,
-        }}
-      animate={{
-        x: 0,
-        opacity: 1,
-        scale: 1,
-        }}
-      transition={{
-        duration: 0.9,
-        }}
-    className=''>
     <form action="mailto:daleyaaron@gmail.com" method="post" className='text-gray-500 text-2xl sm:text-gray-500'>
       <label htmlFor="first">First Name</label>
       <input type="text" id="first" name="first" required className='text-gray-500 bg-gray-100 rounded-lg uppercase'/>
@@ -31,7 +14,5 @@ export default function Form() {
       <textarea className='text-gray-500  bg-gray-100 rounded-lg mt-5'/>
       <button type="submit" className="bg-gray-100 hover:bg-gray-300 text-gray-500 text-sm font-thin uppercase border rounded-2xl border-gray-400 shadow mt-5 py-2 px-4 p-1 pr-2 pl-2">Submit</button>
     </form>
-    </motion.div>
-    </>
   )
 }

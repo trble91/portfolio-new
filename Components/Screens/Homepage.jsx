@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 
 export default function Homepage() {
   return (
-    <>
       <motion.div
         initial={{
           x: 500,
@@ -17,7 +16,7 @@ export default function Homepage() {
           scale: 1,
         }}
         transition={{
-          duration: 2,
+          duration: 1,
         }}
         className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[200px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-end"
       >
@@ -28,6 +27,5 @@ export default function Homepage() {
           - Walt Disney
         </p>
       </motion.div>
-    </>
   );
 }

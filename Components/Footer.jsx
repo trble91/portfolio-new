@@ -1,7 +1,5 @@
 import React from 'react'
-import { motion } from "framer-motion";
 import Image from 'next/image';
-import Homepage from './Screens/Homepage';
 
 export default function footer() {
   return (

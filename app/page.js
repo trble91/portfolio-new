@@ -11,7 +11,6 @@ import Footer from "@/Components/Footer.jsx";
 
 export default function Home() {
   return (
-    <>
       <React.StrictMode>
         <main className="snap-mandatory min-h-screen">
           <Header />
@@ -23,6 +22,5 @@ export default function Home() {
         </main>
         <Footer />
       </React.StrictMode>
-    </>
   );
 }
