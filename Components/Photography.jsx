@@ -6,7 +6,7 @@ export default function Photography() {
   return (
     <>
    <motion.div className='flex sticky flex-row text-center md:flex-row md:text-left xl:flex-row max-w-[400px] xl:px-5 min-h-screen justify-center xl: space-y-4 mx-auto items-center snap-center'>
-    <h3 className='absolute top-16 uppercase tracking-[20px] text-gray-500 text-2xl sm:text-gray-500 md:text-gray-500 lg:text-gray-200 xl:text-gray-500'>
+    <h3 className='absolute top-16 uppercase tracking-[20px] text-gray-500 text-2xl sm:text-gray-500 md:text-gray-500 lg:text-gray-500 xl:text-gray-500'>
         Photography
     </h3>   
     <span>
