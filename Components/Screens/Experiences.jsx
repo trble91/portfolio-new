@@ -1,7 +1,9 @@
-import React from 'react'
-import { motion } from "framer-motion"
+import React from 'react';
+import { motion } from "framer-motion";
+import Image from 'next/image'
 
 function Experiences() {
+
   return (
     <>
    <motion.div className='flex relative flex-col text-center md:text-left xl:flex-row max-w-[200px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-center'>
@@ -14,8 +16,25 @@ function Experiences() {
         {/* Experience Card */}
         {/* Experience Card */}
       </div>
+      <div>
+      <div>
+       <a href=''><Image src="" alt="" /></a>
+       <a href=''><Image src="" alt="" /></a>
+       <a href=''><Image src="" alt="" /></a>
+      </div>
+      {/* <div>
+       <a href=''><Image src="" alt="" /></a>
+       <a href=''><Image src="" alt="" /></a>
+       <a href=''><Image src="" alt="" /></a>
+      </div> */}
+    </div>
       </>
   )
 }
 
 export default Experiences
+
+
+
+
+

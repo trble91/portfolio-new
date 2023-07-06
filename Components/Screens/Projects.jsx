@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion"
+import Image from 'next/image'
 
 export default function Projects() {
   return (
@@ -9,6 +10,18 @@ export default function Projects() {
         Projects
     </h3>    
     </motion.div>
+    <div>
+      <div>
+       <a href=''><Image src="" alt="" /></a>
+       <a href=''><Image src="" alt="" /></a>
+       <a href=''><Image src="" alt="" /></a>
+      </div>
+      {/* <div>
+       <a href=''><Image src="" alt="" /></a>
+       <a href=''><Image src="" alt="" /></a>
+       <a href=''><Image src="" alt="" /></a>
+      </div> */}
+    </div>
     </>
   )
 }

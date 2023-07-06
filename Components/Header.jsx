@@ -21,12 +21,13 @@ export default function Header() {
             }}
             className="flex flex-row items-center">
             <SocialIcon 
-                url="https://www.github.com"
+                url="https://www.github.com/trble91"
                 fgColor="grey"
                 bgColor="transparent" />
 
             <SocialIcon 
                 network="email"
+                url='mailto:daleyaaron@gmail.com'
                 fgColor="grey"
                 bgColor="transparent" />
 
