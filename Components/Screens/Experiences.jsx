@@ -12,7 +12,7 @@ function Experiences() {
     </h3>    
       <div className='flex absolute flex-row top-18 items-center max-w-600px]'>
        <a href='https://github.com/cindywongdev/pets-frontend'><Image src="/assets/fetch-pet-resource.png" alt="" width={300} height={300}/></a>
-       <a href='https://github.com/sydney-rd/PawMeets-react-frontend'><Image src="/assets/pawmeets2.png" alt="" width={300} height={300}/></a>
+       <a href='https://github.com/sydney-rd/PawMeets-react-frontend'><Image src="/assets/PawMeets2.png" alt="" width={300} height={300}/></a>
        {/* <a href=''><Image src="" alt="" /></a> */}
       </div>
     </motion.div>
