@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import Image from 'next/image';
+import Homepage from './Screens/Homepage';
 
 export default function footer() {
   return (
@@ -19,11 +20,13 @@ export default function footer() {
           transition={{
             duration: 0.9,
             }}
-            className="flex">
-            <Image 
+            >
+            <a href="">
+                <Image 
                 src="/assets/aaron.png"
                 alt="" width={50} height={50}
-           />
+                />
+           </a>
         </motion.div>
     </footer>
   )
