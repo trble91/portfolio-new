@@ -5,52 +5,50 @@ import Image from 'next/image';
 export default function Photography() {
   return (
     <>
-    <motion.div className='flex relative flex-col text-center md:text-left xl:flex-row max-w-[200px] xl:px-4 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-both'>
-    <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
+   <motion.div className='flex sticky flex-row text-center md:flex-row md:text-left xl:flex-row max-w-[400px] xl:px-5 min-h-screen justify-center xl: space-y-4 mx-auto items-center snap-center'>
+    <h3 className='absolute top-16 uppercase tracking-[20px] text-gray-500 text-2xl sm:text-gray-500 md:text-gray-500 lg:text-gray-200 xl:text-gray-500'>
         Photography
     </h3>   
-    <div className='flex sticky flex-row md xl:flex-row max-w-[200px] xl:px-4 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-both'>
+    <span>
         <motion.div 
          initial={{
-            x: -500,
-            opacity: 0,
-            scale: 0.5,
+             x: -500,
+             opacity: 0,
+             scale: 0.5,
             }}
-          animate={{
-            x: 0,
-            opacity: 1,
-            scale: 1,
+            animate={{
+                x: 0,
+                opacity: 0.9,
+                scale: 1,
             }}
-          transition={{
-            duuration: 1.5,
+            transition={{
+                duuration: 1.5,
             }}
-
-        className='flex sticky flex-row md xl:flex-row max-w-[200px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-both'>
-        <Image src="/assets/bride.jpg" alt="" width={400} height={300} />
-        <Image src="/assets/groom.jpg" alt="" width={400} height={300} />
-        </motion.div>
-    </div>
-    <div className='flex sticky flex-row md xl:flex-row max-w-[200px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-both'>
-        <motion.div 
-         initial={{
-            x: 500,
-            opacity: 0,
-            scale: 0.5,
-            }}
-          animate={{
-            x: 0,
-            opacity: 1,
-            scale: 1,
-            }}
-          transition={{
-            duuration: 1.0,
-            }} 
-        className='flex sticky flex-row md xl:flex-row max-w-[200px] xl:px-4 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-both'>
+            className='flex relative flex-col text-center mt-20 snap-center'>
+        <Image src="/assets/bride.jpg" alt="" width={500} height={300} />
         <Image src="/assets/corner.jpg" alt="" width={500} height={300} />
+        </motion.div>
+    </span>
+    <span>
+        <motion.div 
+         initial={{
+             x: 500,
+             opacity: 0,
+             scale: 0.5,
+            }}
+            animate={{
+                x: 0,
+                opacity: 0.9,
+                scale: 1,
+            }}
+            transition={{
+                duuration: 1.0,
+            }} 
+            className='flex relative flex-col text-center mt-20 snap-center'>
+        <Image src="/assets/groom.jpg" alt="" width={500} height={300} />
         <Image src="/assets/yankee.jpg" alt="" width={500} height={300} />
         </motion.div>
-    </div>
-
+    </span>
     </motion.div>
     </>
   )
