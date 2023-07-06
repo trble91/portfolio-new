@@ -1,6 +1,6 @@
-import React from 'react'
-import Form from './Form'
-import { motion } from "framer-motion"
+import React from 'react';
+import Form from '../Form.jsx';
+import { motion } from "framer-motion";
 
 export default function Contact() {
   return (
