@@ -19,7 +19,7 @@ export default function Form() {
         duration: 0.9,
         }}
     className=''>
-    <form action="/api/form" method="post" className='text-gray-400 text-2xl sm:text-gray-100'>
+    <form action="/api/form" method="post" className='text-gray-400 text-2xl sm:text-gray-400'>
       <label htmlFor="first">First Name</label>
       <input type="text" id="first" name="first" required className='text-gray-400 bg-gray-100 rounded-lg uppercase'/>
  
