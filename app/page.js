@@ -1,32 +1,28 @@
-"use client"
+"use client";
 
-import React from 'react'
+import React from "react";
 import Header from "@/Components/Header.jsx";
 import Experiences from "@/Components/Screens/Experiences.jsx";
 import AboutMe from "@/Components/Screens/AboutMe.jsx";
-// import Projects from "@/Components/Screens/Projects.jsx";
 import Photography from "@/Components/Screens/Photography.jsx";
 import Skills from "@/Components/Screens/Skills.jsx";
 import Homepage from "@/Components/Screens/Homepage.jsx";
-import Contact from '@/Components/Screens/Contact.jsx';
-// import Circles from '@/Components/Circles.jsx';
-import Footer from '@/Components/Footer.jsx'
+import Footer from "@/Components/Footer.jsx";
 
 export default function Home() {
   return (
     <>
-    <main className="snap-mandatory min-h-screen">
-      <Header />
-      <Homepage />
-      <AboutMe />
-      {/* <Projects /> */}
-      <Experiences />
-      <Skills />
-      <Photography />
-      {/* <Contact /> */}
-      {/* <Circles /> */}
-    </main>
-    <Footer />
+      <React.StrictMode>
+        <main className="snap-mandatory min-h-screen">
+          <Header />
+          <Homepage />
+          <AboutMe />
+          <Experiences />
+          <Skills />
+          <Photography />
+        </main>
+        <Footer />
+      </React.StrictMode>
     </>
-  )
+  );
 }
