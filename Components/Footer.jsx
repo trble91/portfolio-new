@@ -21,7 +21,7 @@ export default function footer() {
             duration: 0.9,
             }}
             >
-            <a href="">
+            <a href="bit.ly/daleyportfolio" className='flex relative float-right'>
                 <Image 
                 src="/assets/aaron.png"
                 alt="" width={50} height={50}

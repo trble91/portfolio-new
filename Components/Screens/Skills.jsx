@@ -20,6 +20,7 @@ export default function Skills() {
           <li>CSS</li>
           <li>SCSS</li>
           <li>Python</li>
+          <li>HTML</li>
           <li>Framer-Motion</li>
           <li>Flask</li>
           <li>Django</li>
