@@ -26,7 +26,7 @@ export default function Photography() {
             }}
             className='flex relative flex-col text-center mt-20 snap-center'>
         <Image src="/assets/bride.jpg" alt="" width={500} height={300} />
-        <Image src="/assets/yankee.jpg" alt="" width={500} height={300} />
+        <Image src="/assets/yankee Large.jpeg" alt="" width={500} height={300} />
         </motion.div>
     </span>
     <span>
@@ -45,8 +45,8 @@ export default function Photography() {
                 duration: 2.0,
             }} 
             className='flex relative flex-col text-center mt-20 snap-center'>
-        <Image src="/assets/groom.jpg" alt="" width={500} height={300} />
-        <Image src="/assets/corner.jpg" alt="" width={500} height={300} />
+        <Image src="/assets/groom Large.jpeg" alt="" width={500} height={300} />
+        <Image src="/assets/corner Large.jpeg" alt="" width={500} height={300} />
         </motion.div>
     </span>
     </motion.div>
