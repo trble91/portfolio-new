@@ -24,18 +24,21 @@ export default function Header() {
             <SocialIcon 
                 url="https://www.github.com/trble91"
                 fgColor="grey"
-                bgColor="transparent" />
+                bgColor="transparent"
+                />
 
             <SocialIcon 
                 network="email"
                 url='mailto:daleyaaron@gmail.com'
                 fgColor="grey"
-                bgColor="transparent" />
+                bgColor="transparent"
+                />
 
             <SocialIcon 
                 url="https://www.linkedin.com/in/daleyaaron"
                 fgColor="grey"
-                bgColor="transparent" />
+                bgColor="transparent" 
+                />
         </motion.div>
         {/* <motion.div 
           initial={{
