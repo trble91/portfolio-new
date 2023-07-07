@@ -12,15 +12,17 @@ import Footer from "@/Components/Footer.jsx";
 export default function Home() {
   return (
     <>
-        <main className="snap-mandatory min-h-screen">
+    <React.StrictMode>
+        <div className="snap-mandatory min-h-screen">
           <Header />
           <Homepage />
           <AboutMe />
           <Experiences />
           <Skills />
-          <Photography />
-        </main>
+          <Photography /> 
+        </div>
         <Footer />
+    </React.StrictMode>
     </>
   );
 }

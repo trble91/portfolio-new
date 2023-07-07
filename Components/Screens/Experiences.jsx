@@ -11,7 +11,7 @@ function Experiences() {
           <a href="https://github.com/cindywongdev/pets-frontend">
             <Image
               src="/assets/fetch-pet-resource.png"
-              alt=""
+              alt="fetch"
               width={300}
               height={300}
             />
@@ -19,7 +19,7 @@ function Experiences() {
           <a href="https://github.com/sydney-rd/PawMeets-react-frontend">
             <Image
               src="/assets/PawMeets2.png"
-              alt=""
+              alt="pawmeets"
               width={300}
               height={300}
             />

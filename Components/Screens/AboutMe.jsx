@@ -16,7 +16,7 @@ export default function AboutMe() {
               "A creative problem-solver, software engineer, and Navy veteran. With a sharp eye for identifying gaps in the market, I'm driven to fill them through skillful approach, collaboration, plus continuous learning. I enjoy building innovative solutions that will make a difference in the world. Along with building software solutions, my passions for curating music and photography continues to help me seek innovation and aesthetic in digital product development."
             }
             {
-              " Unconevntional in every method when it comes to learning. I believe the key to growth is abundant knowledge. Knowledge by way of journey through self-discovery. "
+              " Unconevntional in every method when it comes to learning. I believe the key to growth is abundant knowledge, knowledge by way of self-discovery. "
             }
           </p>
         </div>
