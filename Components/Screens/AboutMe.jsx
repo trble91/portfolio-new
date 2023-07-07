@@ -4,10 +4,10 @@ export default function AboutMe() {
   return (
     <>
       <div className="flex relative flex-col text-center md:text-left xl:flex-row  xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-center">
-        <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-700 text-2xl sm:text-gray-500">
+        <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-700 text-2xl sm:text-gray-700">
           Bio
         </h3>
-        <h6 className="absolute top-44 uppercase tracking-[15px] text-gray-700 text-xl sm:text-gray-500">
+        <h6 className="absolute top-44 uppercase tracking-[15px] text-gray-700 text-xl sm:text-gray-700">
           Aaron Daley
         </h6>
         <div className="flex absolute flex-row text-center text-gray-700 text-lg top-56 xl:flex-row max-w-[500px] items-center snap-center">
