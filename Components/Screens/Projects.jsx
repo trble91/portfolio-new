@@ -8,18 +8,6 @@ export default function Projects() {
         Projects
     </h3>    
     </div>
-    <div>
-      {/* <div>
-       <a href=''><Image src="" alt="" /></a>
-       <a href=''><Image src="" alt="" /></a>
-       <a href=''><Image src="" alt="" /></a>
-      </div> */}
-      {/* <div>
-       <a href=''><Image src="" alt="" /></a>
-       <a href=''><Image src="" alt="" /></a>
-       <a href=''><Image src="" alt="" /></a>
-      </div> */}
-    </div>
     </>
   )
 }
