@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import { motion } from "framer-motion"
 import Image from 'next/image';
@@ -8,7 +9,7 @@ export default function Photography() {
     <h3 className='absolute top-16 uppercase tracking-[20px] text-gray-500 text-2xl sm:text-gray-500 md:text-gray-500 lg:text-gray-500 xl:text-gray-500'>
         Photography
     </h3>   
-    <span>
+    <div>
         <motion.div 
          initial={{
              x: -500,
@@ -27,8 +28,8 @@ export default function Photography() {
         <Image src="/assets/bride.jpg" alt="Bride" width={500} height={300} />
         <Image src="/assets/yankee Large.jpeg" alt="Yankee Stadium" width={500} height={300} />
         </motion.div>
-    </span>
-    <span>
+    </div>
+    <div>
         <motion.div 
          initial={{
              x: 500,
@@ -47,7 +48,7 @@ export default function Photography() {
         <Image src="/assets/groom Large.jpeg" alt="groom" width={500} height={300} />
         <Image src="/assets/corner Large.jpeg" alt="cornerClass" width={500} height={300} />
         </motion.div>
-    </span>
+    </div>
     </div>
   )
 }

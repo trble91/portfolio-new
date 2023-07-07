@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import Header from "@/Components/Header.jsx";
 import Experiences from "@/Components/Screens/Experiences.jsx";
@@ -12,7 +11,6 @@ import Footer from "@/Components/Footer.jsx";
 export default function Home() {
   return (
     <>
-    <React.StrictMode>
         <div className="snap-mandatory min-h-screen">
           <Header />
           <Homepage />
@@ -20,9 +18,8 @@ export default function Home() {
           <Experiences />
           <Skills />
           <Photography /> 
-        </div>
         <Footer />
-    </React.StrictMode>
+        </div>
     </>
   );
 }
