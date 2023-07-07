@@ -7,10 +7,12 @@ import Photography from "@/Components/Screens/Photography.jsx";
 import Skills from "@/Components/Screens/Skills.jsx";
 import Homepage from "@/Components/Screens/Homepage.jsx";
 import Footer from "@/Components/Footer.jsx";
+import './globals.css'
 
 export default function Home() {
   return (
     <>
+          <React.StrictMode>
         <div className="snap-mandatory min-h-screen">
           <Header />
           <Homepage />
@@ -20,6 +22,7 @@ export default function Home() {
           <Photography /> 
         <Footer />
         </div>
+        </React.StrictMode>
     </>
   );
 }
