@@ -1,6 +1,4 @@
 import React from 'react'
-import { motion } from "framer-motion"
-import { SocialIcon } from 'react-social-icons'
 
 export default function Skills() {
   return (
