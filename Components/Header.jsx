@@ -29,7 +29,7 @@ export default function Header() {
 
             <SocialIcon 
                 network="email"
-                url='mailto:daleyaaron@gmail.com'
+                url="mailto:daleyaaron@gmail.com"
                 fgColor="grey"
                 bgColor="transparent"
                 />
