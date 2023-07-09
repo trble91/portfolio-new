@@ -19,7 +19,7 @@ module.exports = {
         "flex relative flex-col text-center mt-20 snap-center",
         "flex absolute flex-row text-center text-gray-700 text-lg top-56 xl:flex-row max-w-[500px] items-center snap-center",
         "flex absolute flex-row text-gray-700 text-md top-18 items-center max-w-600px px-10]",
-        "absolute top-16 uppercase tracking-[17px] text-gray-700 text-2xl sm:text-gray-700 sm:text-lg md:text-gray-700 lg:text-gray-700 xl:text-gray-700",
+        "absolute top-16 uppercase tracking-[17px] text-gray-700 text-2xl sm:text-gray-700 sm:text-base md:text-gray-700 lg:text-gray-700 xl:text-gray-700",
         "absolute top-24 uppercase tracking-[20px] text-gray-700 text-2xl sm:text-gray-700",
         "absolute top-24 uppercase tracking-[17px] text-gray-700 text-2xl sm:text-gray-700",
         "absolute top-44 uppercase tracking-[15px] text-gray-700 text-xl sm:text-gray-700",
