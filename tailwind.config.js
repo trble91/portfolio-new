@@ -25,7 +25,7 @@ module.exports = {
         "absolute top-44 uppercase tracking-[15px] text-gray-700 text-xl sm:text-gray-700",
         "absolute bottom-48 uppercase tracking-[2px] text-gray-700 text-md marker:mb-10",
         "",
-        "",
+        "", 
       ],
     },
     theme: {
