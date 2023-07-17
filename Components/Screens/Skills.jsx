@@ -22,6 +22,9 @@ export default function Skills() {
           <li>Flask</li>
           <li>Django</li>
           <li>MongoDB</li>
+          <li>Express</li>
+          <li>PeeWee</li>
+          <li>Adobe Suite</li>
          </ul>
         </div>
     </div>
