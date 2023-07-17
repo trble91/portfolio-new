@@ -40,7 +40,7 @@ function Experiences() {
             src="/assets/PawMeets2.png"
             alt="pawmeets"
             width="300"
-            height="200"
+            height="300"
             className="flex relative flex-col text-center mt-20 snap-center"
           />
         </a>
