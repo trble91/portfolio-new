@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 function Experiences() {
   return (
@@ -8,7 +9,20 @@ function Experiences() {
         <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-700 text-xl">
           Projects
         </h3>
-        <div className="flex absolute flex-row top-18 items-center max-w-[600px]">
+        <motion.div 
+        initial={{
+          x: -500,
+          opacity: 0,
+          scale: 0.5,
+         }}
+         animate={{
+             x: 0,
+             opacity: 1,
+             scale: 1,
+         }}
+         transition={{
+             duration: 3.0,}}
+        className="flex absolute flex-row top-18 items-center max-w-[600px]">
           <a href="https://github.com/cindywongdev/pets-frontend">
             <Image
               src="/assets/fetch-pet-resource.png"
@@ -38,7 +52,7 @@ function Experiences() {
               className='flex relative flex-col text-center mt-20 snap-center'
             />
           </a>
-        </div>
+        </motion.div>
     </div>
   );
 }
