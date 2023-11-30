@@ -25,7 +25,7 @@ function Experiences() {
         }}
         className="flex absolute flex-row top-18 items-center max-w-[600px]"
       >
-        <a href="https://github.com/cindywongdev/pets-frontend">
+        <a href="https://pet-front-end.onrender.com/">
           <Image
             src="/assets/fetch-pet-resource.png"
             alt="fetch"

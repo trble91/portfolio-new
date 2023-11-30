@@ -9,7 +9,7 @@ export default function Photography() {
     <h3 className='absolute top-16 uppercase tracking-[17px] text-gray-700 text-2xl sm:text-gray-700 sm:text-base md:text-gray-700 lg:text-gray-700 xl:text-gray-700'>
         Photography
     </h3>   
-    <div>
+    <>
         <motion.div 
          initial={{
              x: -500,
@@ -28,8 +28,8 @@ export default function Photography() {
         <Image src="/assets/bride.jpg" alt="Bride" width={500} height={300} />
         <Image src="/assets/yankee Large.jpeg" alt="Yankee Stadium" width={500} height={300} />
         </motion.div>
-    </div>
-    <div>
+    </>
+    <>
         <motion.div 
          initial={{
              x: 500,
@@ -48,7 +48,7 @@ export default function Photography() {
         <Image src="/assets/groom Large.jpeg" alt="groom" width={500} height={300} />
         <Image src="/assets/corner Large.jpeg" alt="cornerClass" width={500} height={300} />
         </motion.div>
-    </div>
+    </>
     </div>
   )
 }
