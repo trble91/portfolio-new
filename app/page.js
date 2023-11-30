@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Nav from "@/Components/Nav.jsx";
 import Header from "@/Components/Header.jsx";
 import Homepage from "@/Components/Screens/Homepage.jsx";
 import Footer from "@/Components/Footer.jsx";
