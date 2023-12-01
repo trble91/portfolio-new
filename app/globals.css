@@ -11,17 +11,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 100, 255;
-    --background-start-rgb: 255, 170, 170;
-    --background-end-rgb: 170, 170, 170;
+    --foreground-rgb: #c5cac4;
+    --background-start-rgb: #bcc6be;
+    --background-end-rgb: #b8bcb7;
   }
 }
 
-@media (prefers-color-scheme: dark) {
-   * {
-    color: rgb(230, 230, 230) !important;
-  }
-}
 
 body {
   color: rgb(var(--foreground-rgb));

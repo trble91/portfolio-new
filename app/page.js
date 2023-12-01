@@ -2,7 +2,7 @@
 import React from "react";
 import Header from "@/Components/Header.jsx";
 import Homepage from "@/Components/Screens/Homepage.jsx";
-import Footer from "@/Components/Footer.jsx";
+// import Footer from "@/Components/Footer.jsx";
 import "./globals.css";
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
         <div className="snap-mandatory min-h-screen">
           <Header />
           <Homepage />
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </React.StrictMode>
     </>
