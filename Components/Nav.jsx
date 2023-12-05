@@ -7,7 +7,6 @@ import Photography from './Screens/Photography';
 export default function Nav() {
   return (
     <Nav className="sticky bottom-0 p-5 flex-row-reverse items-end justify-between max-w-7xl mx-auto z-20 xl:items-center"> 
-     <>
      <Link>
        {<Experiences />}
      </Link>
@@ -17,7 +16,6 @@ export default function Nav() {
      <Link>
       {<AboutMe />}
      </Link>
-     </>
     </Nav>
   )
 }
