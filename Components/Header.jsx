@@ -40,7 +40,7 @@ export default function Header() {
                 bgColor="transparent" 
                 />
         </motion.div>
-        {/* <motion.div 
+        <motion.div 
           initial={{
             x: 500,
             opacity: 0,
@@ -68,7 +68,7 @@ export default function Header() {
                 url="https://www.twitter.com"
                 fgColor="gray"
                 bgColor="transparent" />
-        </motion.div> */}
+        </motion.div>
     </header>
   )
 }
