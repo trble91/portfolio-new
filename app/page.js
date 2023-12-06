@@ -11,8 +11,8 @@ export default function Home() {
       <React.StrictMode>
         <div className="snap-mandatory min-h-screen">
           <Header />
-          <Homepage />
           <Nav />
+          <Homepage />
         </div>
       </React.StrictMode>
     </>
