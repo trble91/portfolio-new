@@ -40,6 +40,9 @@ export default function Header() {
                 bgColor="transparent" 
                 />
         </motion.div>
+
+
+      {/* Comment out due to professional page. Use only for personal
         <motion.div 
           initial={{
             x: 500,
@@ -68,7 +71,7 @@ export default function Header() {
                 url="https://www.twitter.com"
                 fgColor="gray"
                 bgColor="transparent" />
-        </motion.div>
+        </motion.div> */}
     </header>
   )
 }
