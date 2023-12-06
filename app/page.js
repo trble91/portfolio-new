@@ -2,8 +2,7 @@
 import React from "react";
 import Header from "@/Components/Header.jsx";
 import Homepage from "@/Components/Screens/Homepage.jsx";
-// import Nav from "@/Components/Nav.jsx";
-import Skills from "@/Components/Screens/Skills";
+import Nav from "@/Components/Nav.jsx";
 import './globals.css'
 
 export default function Home() {
@@ -13,8 +12,7 @@ export default function Home() {
         <div className="snap-mandatory min-h-screen">
           <Header />
           <Homepage />
-          <Skills />
-          {/* <Nav /> */}
+          <Nav />
         </div>
       </React.StrictMode>
     </>
