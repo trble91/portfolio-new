@@ -52,7 +52,7 @@ export default function Header() {
             scale: 1,
             }}
           transition={{
-            duration: 1.5,
+            duration: 0.9,
             }}
             className="flex flex-row items-center">
             <SocialIcon 
