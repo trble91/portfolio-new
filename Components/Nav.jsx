@@ -7,14 +7,17 @@ import Photography from './Screens/Photography';
 export default function Nav() {
   return (
     <Nav className="sticky bottom-0 p-5 flex-row-reverse items-end justify-between max-w mx-auto z-20 xl:items-center"> 
-     <Link>
-       {<Experiences />}
+     <Link href={<Experiences />}>
+      <a className=''>Experiences</a>
      </Link>
-     <Link>
-      {<Photography />}
+     <Link href={<Photography />}>
+      <a className=''>Photography</a>
      </Link>
-     <Link>
-      {<AboutMe />}
+     <Link href={<AboutMe />}>
+      <a className=''>Bio</a>
+     </Link>
+     <Link href="/">
+      <a className=''>Home</a>
      </Link>
     </Nav>
   )

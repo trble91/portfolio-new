@@ -1,4 +1,6 @@
+"use client";
 import React from "react";
+import Skills from "./Skills";
 
 export default function AboutMe() {
   return (
@@ -21,6 +23,7 @@ export default function AboutMe() {
             </p>
           </div>
       </div>
+      <Skills />
     </>
   );
 }
