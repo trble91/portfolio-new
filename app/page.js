@@ -9,6 +9,7 @@ import Photography from "@/Components/Screens/Photography";
 import './globals.css'
 
 export default function Home() {
+  console.log("error")
   return (
     <>
       <React.StrictMode>
