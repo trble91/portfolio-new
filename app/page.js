@@ -17,7 +17,7 @@ export default function Home() {
           {/* <Nav /> */}
           <Homepage />
           <AboutMe />
-          <Skills />
+          {/* <Skills /> */}
           <Photography />
         </div>
       </React.StrictMode>
