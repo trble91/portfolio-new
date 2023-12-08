@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 function Experiences() {
   return (
     <div className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[600px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-700 text-xl dark:text-gray-900">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-700 text-xl">
         Projects
       </h3>
       <motion.div
