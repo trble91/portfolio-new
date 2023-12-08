@@ -19,10 +19,10 @@ export default function Homepage() {
         }}
         className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[200px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-end"
       >
-        <h3 className="absolute top-24 uppercase tracking-[17px] text-gray-700 text-2xl sm:text-gray-700">
+        <h3 className="absolute top-24 uppercase tracking-[17px] text-gray-700 text-2xl sm:text-gray-700 dark:text-gray-900">
           The way to get started is to quit talking and begin doing
         </h3>
-        <p className="absolute bottom-48 uppercase tracking-[2px] text-gray-700 text-md marker:mb-10">
+        <p className="absolute bottom-48 uppercase tracking-[2px] text-gray-700 text-md marker:mb-10 dark:text-gray-900">
           - Walt Disney
         </p>
       </motion.div>

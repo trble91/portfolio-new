@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <React.StrictMode>
-        <div className="snap-mandatory min-h-screen dark:bg-gray-800 dark:text-gray-300">
+        <div className="snap-mandatory min-h-screen dark:bg-gray-800 dark:text-gray-900">
           <Header />
           {/* <Nav /> */}
           <Homepage />
