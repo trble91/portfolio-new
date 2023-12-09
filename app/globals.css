@@ -4,16 +4,16 @@
 
 
 :root {
-  --foreground-rgb: rgb();
-  --background-start-rgb: rgb();
-  --background-end-rgb: rgb();
+  --foreground-rgb: rgb(206, 196, 208);
+  --background-start-rgb: rgb(191, 191, 230);
+  --background-end-rgb: rgb(155, 155, 186);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: rgb();
-    --background-start-rgb: rgb();
-    --background-end-rgb: rgb();
+    --foreground-rgb: rgb(206, 196, 208);
+    --background-start-rgb: rgb(191, 191, 230);
+    --background-end-rgb: rgb(155, 155, 186);
   }
 }
 
