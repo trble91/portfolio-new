@@ -2,7 +2,7 @@
 import React from "react";
 import Skills from "./Skills";
 
-export default function AboutMe() {
+export default function Bio() {
   return (
     <>
       <div className="flex relative flex-col text-center md:text-left xl:flex-row  xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-center">

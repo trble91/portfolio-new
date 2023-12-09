@@ -4,16 +4,16 @@
 
 
 :root {
-  --foreground-rgb: #3498df;
-  --background-start-rgb: #3498db;
-  --background-end-rgb: #ecf0f1;
+  --foreground-rgb: rgb();
+  --background-start-rgb: rgb();
+  --background-end-rgb: rgb();
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: #3498df;
-    --background-start-rgb: #3498db;
-    --background-end-rgb: #ecf0f1;
+    --foreground-rgb: rgb();
+    --background-start-rgb: rgb();
+    --background-end-rgb: rgb();
   }
 }
 
