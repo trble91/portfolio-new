@@ -1,4 +1,4 @@
-
+"use client"
 import React from "react";
 import Skills from "../../components/Skills.jsx";
 import Navbar from "@/components/Navbar.jsx";
@@ -24,10 +24,9 @@ export default function Bio() {
               }
             </p>
           </div>
-          <Photography />
+          {/* <Photography /> */}
       </div>
 
-      {/* <Skills /> */}
       <Navbar />
     </>
   );

@@ -2,9 +2,11 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import Image from 'next/image';
+import Navbar from '@/components/Navbar';
 
 export default function Photography() {
   return (
+    <>
    <div className='flex sticky flex-row text-center sm:max-w-[300px]  md:flex-row md:text-left xl:flex-row max-w-[400px] xl:px-5 min-h-screen justify-center xl: space-y-4 mx-auto items-center snap-center'>
     <h3 className='absolute top-10 uppercase tracking-[17px] text-gray-700 text-2xl sm:text-gray-700 sm:text-base md:text-gray-700 lg:text-gray-700 xl:text-gray-800'>
         Photography
@@ -50,6 +52,8 @@ export default function Photography() {
         </motion.div>
     </>
     </div>
+    <Navbar />
+    </>
   )
 }
 

@@ -1,8 +1,10 @@
+"use client"
 import React from "react";
 import { motion } from "framer-motion";
 
 export default function Homepage() {
   return (
+    <>
       <motion.div
         initial={{
           x: 500,
@@ -27,5 +29,6 @@ export default function Homepage() {
           - Walt Disney
         </p>
       </motion.div>
+      </>
   );
 }
