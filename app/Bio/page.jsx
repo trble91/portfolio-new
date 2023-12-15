@@ -2,6 +2,7 @@
 import React from "react";
 import Skills from "../../components/Skills.jsx";
 import Navbar from "@/components/Navbar.jsx";
+import Photography from "../Photography/page.jsx";
 
 export default function Bio() {
   return (
@@ -23,7 +24,9 @@ export default function Bio() {
               }
             </p>
           </div>
+          <Photography />
       </div>
+
       {/* <Skills /> */}
       <Navbar />
     </>
