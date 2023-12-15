@@ -40,38 +40,6 @@ export default function Header() {
                 bgColor="transparent" 
                 />
         </motion.div>
-
-
-      {/* Comment out due to professional page. Use only for personal
-        <motion.div 
-          initial={{
-            x: 500,
-            opacity: 0,
-            scale: 0.5,
-            }}
-          animate={{
-            x: 0,
-            opacity: 1,
-            scale: 1,
-            }}
-          transition={{
-            duration: 0.9,
-            }}
-            className="flex flex-row items-center">
-            <SocialIcon 
-                url="https://www.instagram.com"
-                fgColor="gray"
-                bgColor="transparent" />
-            <SocialIcon 
-                url="https://www.facebook.com"
-                fgColor="gray"
-                bgColor="transparent" />
-
-            <SocialIcon 
-                url="https://www.twitter.com"
-                fgColor="gray"
-                bgColor="transparent" />
-        </motion.div> */}
     </header>
   )
 }

@@ -1,6 +1,7 @@
 
 import React from "react";
-import Skills from "./Skills";
+import Skills from "../../components/Skills.jsx";
+import Navbar from "@/components/Navbar.jsx";
 
 export default function Bio() {
   return (
@@ -23,7 +24,8 @@ export default function Bio() {
             </p>
           </div>
       </div>
-      <Skills />
+      {/* <Skills /> */}
+      <Navbar />
     </>
   );
 }
