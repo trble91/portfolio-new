@@ -15,7 +15,7 @@ export default function Experiences() {
         </h3>
         <motion.div
           initial={{
-            x: -500,
+            x: 500,
             opacity: 0,
             scale: 0.5,
           }}
