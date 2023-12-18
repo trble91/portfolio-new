@@ -25,7 +25,7 @@ export default function Homepage() {
           The way to get started is to {"\n"}
           quit talking and begin doing
         </h3>
-        <p className="absolute bottom-70 uppercase tracking-[2px] text-gray-700 text-md marker:mb-10">
+        <p className="absolute bottom-70 uppercase -mt-10 tracking-[2px] text-gray-700 text-md marker:mb-10">
           - Walt Disney
         </p>
       </motion.div>

@@ -1,14 +1,16 @@
 
 import React from 'react'
+import Navbar from '@/components/Navbar'
 
 
 export default function Skills() {
   return (
+    <>
     <div className='flex relative flex-col text-center md:text-left xl:flex-row max-w-[200px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-center'>
         <h3 className='absolute top-0 uppercase tracking-[20px] text-gray-700 text-2xl dark:text-gray-900'>
             Skills
         </h3>   
-        <div className='flex absolute top-20 flex-row text-gray-700 text-md top-18 items-center max-w-600px px-10] dark:text-gray-900'>
+     <div className='flex absolute top-20 flex-row text-gray-700 text-md top-18 items-center max-w-600px px-10] dark:text-gray-900'>
        <ul>
          <li>Javascript</li>
           <li>React</li>
@@ -29,6 +31,8 @@ export default function Skills() {
           <li>Adobe Suite</li> 
           </ul>
         </div>
+        <Navbar />
     </div>
+  </>
   )
 }
