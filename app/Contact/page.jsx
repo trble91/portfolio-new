@@ -34,10 +34,10 @@ const ContactForm = () => {
   return (
     <>
       <Header />
-      <div className="flex items-center top-10 justify-center min-h-screen">
+      <div className="flex items-center top-10 justify-center min-h-screen snap-center">
         <form
           onSubmit={handleSubmit}
-          className="max-w-md w-full bg-white p-6 rounded-lg shadow-md"
+          className="max-w-md w-full bg-white p-6 rounded-lg shadow-md mt-5 mb-10"
         >
           <label className="block text-gray-700 text-sm font-bold mb-2">
             Name:

@@ -26,7 +26,7 @@ export default function Photography() {
               scale: 1,
             }}
             transition={{
-              duration: 3.0,
+              duration: 5.0,
             }}
             className="flex relative flex-col text-center mt-20 snap-center"
           >
@@ -57,7 +57,7 @@ export default function Photography() {
               scale: 1,
             }}
             transition={{
-              duration: 3.0,
+              duration: 5.0,
             }}
             className="flex relative flex-col text-center mt-20 snap-center"
           >

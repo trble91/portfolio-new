@@ -19,7 +19,7 @@ export default function Homepage() {
         transition={{
           duration: 1,
         }}
-        className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[200px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-end"
+        className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[200px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-center"
       >
         <h3 className="absolute top-24 uppercase tracking-[17px] text-gray-700 text-2xl sm:text-gray-700">
           The way to get started is to {"\n"}

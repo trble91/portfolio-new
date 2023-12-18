@@ -25,7 +25,7 @@ export default function Experiences() {
             scale: 1,
           }}
           transition={{
-            duration: 3.0,
+            duration: 2.0,
           }}
           className="flex absolute flex-row top-18 items-center max-w-[600px]"
         >
