@@ -33,6 +33,6 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-form {
-  
+.box {
+  color: black;  
 }

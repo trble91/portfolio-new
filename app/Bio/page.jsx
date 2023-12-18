@@ -2,7 +2,6 @@
 import React from "react";
 import Navbar from "@/components/Navbar.jsx";
 import Header from "@/components/Header";
-import ContactForm from "@/app/Contact/page";
 
 export default function Bio() {
   return (
@@ -26,7 +25,6 @@ export default function Bio() {
           </p>
         </div>
       </div>
-      <ContactForm />
       <Navbar />
     </>
   );
