@@ -20,6 +20,10 @@ export default function Skills() {
           <li>Tailwind</li>
           <li>CSS</li>
           <li>SCSS</li>
+        </ul>
+        </div>
+        <div>
+        <ul>
           <li>Python</li>
           <li>HTML</li>
           <li>Framer-Motion</li>
@@ -29,7 +33,7 @@ export default function Skills() {
           <li>Express</li>
           <li>PeeWee</li>
           <li>Adobe Suite</li> 
-          </ul>
+        </ul>
         </div>
         <Navbar />
     </div>
