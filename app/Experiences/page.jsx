@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
 import { motion } from "framer-motion";
-import Header from "@/components/Header";
+import Navbar from "../../Navbar.jsx";
+import Header from "../../Header.jsx";
 
 export default function Experiences() {
   return (
