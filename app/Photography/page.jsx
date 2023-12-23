@@ -37,7 +37,7 @@ export default function Photography() {
               height={50}
             />
             <Image
-              src="/assets/yankee Large.jpeg"
+              src="/assets/yankee-Large.jpeg"
               alt="Yankee Stadium"
               width={200}
               height={50}
