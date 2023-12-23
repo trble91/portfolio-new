@@ -32,10 +32,10 @@ export default function Experiences() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
-    }, 5000); // Change the duration to control the slideshow speed
+    }, 6000); // Change the duration to control the slideshow speed
 
     return () => clearInterval(interval);
-  }, []);
+  }, );
 
   const handleSlideChange = (index) => {
     setCurrentSlide(index);
