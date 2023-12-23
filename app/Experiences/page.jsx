@@ -2,8 +2,8 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Navbar from "../../Navbar.jsx";
-import Header from "../../Header.jsx";
+import Navbar from "../../components/Navbar.jsx";
+import Header from "../../components/Header.jsx"
 
 export default function Experiences() {
   return (
