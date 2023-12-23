@@ -2,8 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
-import Header from "@/components/Header";
+import Navbar from "../../Navbar.jsx";
+import Header from "../../Header.jsx";
 
 export default function Photography() {
   return (
