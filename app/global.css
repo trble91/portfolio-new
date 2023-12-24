@@ -2,8 +2,6 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* styles/Home.module.css */
-
 :root {
   --foreground-rgb: rgb(51, 46, 52);
   --background-start-rgb: rgb(87, 87, 177);
@@ -18,7 +16,7 @@
   }
 
   * {
-    color: rgb(78, 78, 78) !important;
+    color: rgb(181, 174, 174) !important;
   }
 }
 

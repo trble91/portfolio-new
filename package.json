@@ -23,5 +23,9 @@
     "react-social-icons": "^5.15.0",
     "sharp": "^0.32.5",
     "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3"
   }
 }

@@ -20,7 +20,7 @@ export default function Experiences() {
       description: "Artist/Entrepreneur/Herbalist",
     },
     {
-      link: "#",
+      link: "https://",
       imageSrc: "/assets/love.jpg",
       title: "Landing Page",
       description: "Creative Director",
@@ -38,7 +38,7 @@ export default function Experiences() {
   }, );
 
   const handleSlideChange = (index) => {
-    setCurrentSlide(index);
+    setCurrentSlide(index);s
   };
   return (
     <>
@@ -57,7 +57,7 @@ export default function Experiences() {
             scale: 1,
           }}
           transition={{
-            duration: 2.0,
+            duration: 1.0,
           }}
           className="flex absolute flex-row top-18 items-center max-w-[600px]"
         >
@@ -89,7 +89,6 @@ export default function Experiences() {
                     fill="none"
                     viewBox="0 0 14 10"
                   >
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                   </svg>
                 </a>
               </div>
