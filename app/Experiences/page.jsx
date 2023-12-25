@@ -20,7 +20,7 @@ export default function Experiences() {
       description: "Artist/Entrepreneur/Herbalist",
     },
     {
-      link: "https://",
+      link: "https://portfolio-new-pi-one.vercel.app",
       imageSrc: "/assets/portfolio-snap.png",
       title: "Portfolio",
       description: "Software Engineer",
