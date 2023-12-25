@@ -25,6 +25,12 @@ export default function Experiences() {
       title: "Portfolio",
       description: "Software Engineer",
     },
+    {
+      link: "https://trble91.github.io/trivia-game/",
+      imageSrc: "/assets/trivia-game.png",
+      title: "Trivia Game",
+      description: "Test your knowedge with common musical questions",
+    },
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
