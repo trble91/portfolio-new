@@ -70,7 +70,7 @@ const ContactForm = () => {
           </label>
           <button
             type="submit"
-            className="bg-gray-300 text-white font-bold py-2 px-4 mt-4 rounded focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
+            className="bg-gray-200 text-white font-bold py-2 px-4 mt-4 rounded focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
           > 
             Submit
           </button>
