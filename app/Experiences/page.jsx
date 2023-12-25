@@ -1,9 +1,9 @@
 "use client";
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Navbar from "../../components/Navbar.jsx";
-import Header from "../../components/Header.jsx"
+import Header from "../../components/Header.jsx";
 
 export default function Experiences() {
   const slides = [
@@ -38,13 +38,14 @@ export default function Experiences() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
-    }, 6000); // Change the duration to control the slideshow speed
+    }, 3000); // Change the duration to control the slideshow speed
 
     return () => clearInterval(interval);
-  }, );
+  });
 
   const handleSlideChange = (index) => {
-    setCurrentSlide(index);s
+    setCurrentSlide(index);
+    s;
   };
   return (
     <>
@@ -63,12 +64,12 @@ export default function Experiences() {
             scale: 1,
           }}
           transition={{
-            duration: 1.0,
+            duration: 0.9,
           }}
           className="flex absolute flex-row top-18 items-center max-w-[600px]"
         >
           <div className="">
-            <div className="min-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="min-w-sm border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <a href={slides[currentSlide].link}>
                 <Image
                   className="rounded-t-lg"
@@ -79,12 +80,22 @@ export default function Experiences() {
                 />
               </a>
               <div className="p-3">
-                <a href={slides[currentSlide].link}>
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{slides[currentSlide].title}</h5>
-                </a>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{slides[currentSlide].description}</p>
                 <a
                   href={slides[currentSlide].link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    {slides[currentSlide].title}
+                  </h5>
+                </a>
+                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  {slides[currentSlide].description}
+                </p>
+                <a
+                  href={slides[currentSlide].link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-100 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-blue-800"
                 >
                   Read more
@@ -95,7 +106,13 @@ export default function Experiences() {
                     fill="none"
                     viewBox="0 0 14 10"
                   >
-                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" /> 
+                    <path
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
                   </svg>
                 </a>
               </div>
@@ -106,4 +123,4 @@ export default function Experiences() {
       <Navbar />
     </>
   );
-};
+}
