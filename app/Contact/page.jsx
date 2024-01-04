@@ -2,8 +2,8 @@
 
 import React, { useState } from "react";
 import axios from "axios";
-import Navbar from "../../components/Navbar.jsx";
-import Header from "../../components/Header.jsx"
+import Navbar from "../Navbar/page.jsx";
+import Header from "../Header/page.jsx"
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
