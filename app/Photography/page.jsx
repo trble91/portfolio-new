@@ -6,6 +6,12 @@ import Navbar from "../../components/Navbar.jsx";
 import Header from "../../components/Header.jsx"
 
 export default function Photography() {
+  const imageSources = [
+    "/assets/groom Large.jpeg",
+    "/assets/corner Large.jpeg",
+    "/assets/yankee-Large.jpeg",
+    "/assets/bride.jpg"
+  ];
   return (
     <>
     <Header />
@@ -28,23 +34,20 @@ export default function Photography() {
             transition={{
               duration: 5.0,
             }}
-            className="flex relative flex-col text-center mt-20 snap-center"
+            className="flex relative flex-row text-center mt-20 snap-center"
           >
-            <Image
-              src="/assets/bride.jpg"
-              alt="Bride"
-              width={200}
-              height={50}
-            />
-            <Image
-              src="/assets/yankee-Large.jpeg"
-              alt="Yankee Stadium"
-              width={200}
-              height={50}
-            />
+            {imageSources.map((src, index) => (
+        <Image
+          key={index} 
+          src={src}
+          alt={`Image ${index + 1}`}
+          width={200}
+          height={50}
+        />
+      ))}
           </motion.div>
         </>
-        <>
+        {/* <>
           <motion.div
             initial={{
               x: 500,
@@ -59,22 +62,19 @@ export default function Photography() {
             transition={{
               duration: 5.0,
             }}
-            className="flex relative flex-col text-center mt-20 snap-center"
+            className="flex relative flex-row bottom-20 text-center mt-20 snap-center"
           >
-            <Image
-              src="/assets/groom Large.jpeg"
-              alt="groom"
-              width={200}
-              height={50}
-            />
-            <Image
-              src="/assets/corner Large.jpeg"
-              alt="cornerClass"
-              width={200}
-              height={50}
-            />
+             {imageSources.map((src, index) => (
+        <Image
+          key={index} 
+          src={src}
+          alt={`Image ${index + 1}`}
+          width={200}
+          height={50}
+        />
+      ))}
           </motion.div>
-        </>
+        </> */}
       </div>
       <Navbar />
     </>
