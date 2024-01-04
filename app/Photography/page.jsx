@@ -9,6 +9,8 @@ export default function Photography() {
   const imageSources = [
     "/assets/groom Large.jpeg",
     "/assets/corner Large.jpeg",
+  ];
+  const imageSources2 = [
     "/assets/yankee-Large.jpeg",
     "/assets/bride.jpg"
   ];
@@ -34,7 +36,7 @@ export default function Photography() {
             transition={{
               duration: 5.0,
             }}
-            className="flex relative flex-row text-center mt-20 snap-center"
+            className="flex relative flex-col bottom-20 top-2 text-center mt-20 snap-center"
           >
             {imageSources.map((src, index) => (
         <Image
@@ -47,7 +49,7 @@ export default function Photography() {
       ))}
           </motion.div>
         </>
-        {/* <>
+        <>
           <motion.div
             initial={{
               x: 500,
@@ -62,9 +64,9 @@ export default function Photography() {
             transition={{
               duration: 5.0,
             }}
-            className="flex relative flex-row bottom-20 text-center mt-20 snap-center"
+            className="flex relative flex-col bottom-20 top-2 text-center mt-20 snap-center"
           >
-             {imageSources.map((src, index) => (
+             {imageSources2.map((src, index) => (
         <Image
           key={index} 
           src={src}
@@ -74,7 +76,7 @@ export default function Photography() {
         />
       ))}
           </motion.div>
-        </> */}
+        </>
       </div>
       <Navbar />
     </>
