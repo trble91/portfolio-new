@@ -2,9 +2,9 @@
 
 import "./styles.css"
 import React from 'react';
-import Header from "@/components/Header.jsx";
+import Header from "@/app/Header/page.jsx";
 import Homepage from "@/app/Home/page.jsx";
-import Navbar from "@/components/Navbar.jsx";
+import Navbar from "@/app/Navbar/page.jsx";
 
 
 export default function Home() {

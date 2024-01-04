@@ -2,10 +2,18 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Navbar from "../../components/Navbar.jsx";
-import Header from "../../components/Header.jsx"
+import Navbar from "../Navbar/page.jsx";
+import Header from "../Header/page.jsx"
 
 export default function Photography() {
+  const imageSources = [
+    "/assets/groom Large.jpeg",
+    "/assets/corner Large.jpeg",
+  ];
+  const imageSources2 = [
+    "/assets/yankee-Large.jpeg",
+    "/assets/bride.jpg"
+  ];
   return (
     <>
     <Header />
@@ -28,20 +36,17 @@ export default function Photography() {
             transition={{
               duration: 5.0,
             }}
-            className="flex relative flex-col text-center mt-20 snap-center"
+            className="flex relative flex-col bottom-20 top-2 text-center mt-20 snap-center"
           >
-            <Image
-              src="/assets/bride.jpg"
-              alt="Bride"
-              width={200}
-              height={50}
-            />
-            <Image
-              src="/assets/yankee-Large.jpeg"
-              alt="Yankee Stadium"
-              width={200}
-              height={50}
-            />
+            {imageSources.map((src, index) => (
+        <Image
+          key={index} 
+          src={src}
+          alt={`Image ${index + 1}`}
+          width={200}
+          height={50}
+        />
+      ))}
           </motion.div>
         </>
         <>
@@ -59,20 +64,17 @@ export default function Photography() {
             transition={{
               duration: 5.0,
             }}
-            className="flex relative flex-col text-center mt-20 snap-center"
+            className="flex relative flex-col bottom-20 top-2 text-center mt-20 snap-center"
           >
-            <Image
-              src="/assets/groom Large.jpeg"
-              alt="groom"
-              width={200}
-              height={50}
-            />
-            <Image
-              src="/assets/corner Large.jpeg"
-              alt="cornerClass"
-              width={200}
-              height={50}
-            />
+             {imageSources2.map((src, index) => (
+        <Image
+          key={index} 
+          src={src}
+          alt={`Image ${index + 1}`}
+          width={200}
+          height={50}
+        />
+      ))}
           </motion.div>
         </>
       </div>
