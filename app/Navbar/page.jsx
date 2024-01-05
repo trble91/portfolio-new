@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="relative absolute space-x-4 space-y-8 text-center p-5 uppercase mb-2 -mt-10 tracking-[10px] text-gray-700 text-sm font-medium text-center text-white rounded-lg">
+    <nav className="relative space-x-4 space-y-8 absolute text-center p-5 uppercase mb-2 -mt-10 tracking-[10px]">
       <Link href="/">Home</Link>
       {/* <Link href="/Contact">Contact</Link> */}
       <Link href="/Experiences">Experiences</Link>
