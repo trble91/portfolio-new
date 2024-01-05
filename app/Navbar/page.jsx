@@ -9,7 +9,7 @@ export default function Navbar() {
       <Link href="/">Home</Link>
       {/* <Link href="/Contact">Contact</Link> */}
       <Link href="/Experiences">Experiences</Link>
-      <Link href="/Photography">Photography</Link>
+      <Link href="/Photos">Photos</Link>
       <Link href="/Skills">Skills</Link>
     </nav>
   );
