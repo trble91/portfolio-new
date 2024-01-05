@@ -1,5 +1,4 @@
-"use client";
-
+use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -12,7 +11,7 @@ export default function Experiences() {
       link: "https://pet-front-end.onrender.com/",
       imageSrc: "/assets/fetch-pet-resource.png",
       title: "Pet Resource Site",
-      description: "Scroll through threads of cat and dog-related content.",
+      description: "Scroll through threads of cat and dog related content.",
     },
     {
       link: "https://youngtruth.net",
@@ -30,7 +29,7 @@ export default function Experiences() {
       link: "https://trble91.github.io/trivia-game/",
       imageSrc: "/assets/trivia-game.png",
       title: "Trivia Game",
-      description: "Test your knowledge with common musical questions",
+      description: "Test your knowedge with common musical questions",
     },
   ];
 
@@ -42,12 +41,12 @@ export default function Experiences() {
     }, 3000); // Change the duration to control the slideshow speed
 
     return () => clearInterval(interval);
-  }, [currentSlide, slides.length]);
+  });
 
   const handleSlideChange = (index) => {
     setCurrentSlide(index);
+    s;
   };
-
   return (
     <>
       <Header />
@@ -120,18 +119,6 @@ export default function Experiences() {
             </div>
           </div>
         </motion.div>
-      </div>
-      {/* Navigation Indicators */}
-      <div className="flex justify-center mt-4 space-x-2">
-        {slides.map((_, index) => (
-          <div
-            key={index}
-            className={`w-4 h-4 rounded-full cursor-pointer ${
-              index === currentSlide ? "bg-blue-500" : "bg-gray-300"
-            }`}
-            onClick={() => handleSlideChange(index)}
-          />
-        ))}
       </div>
       <Navbar />
     </>
