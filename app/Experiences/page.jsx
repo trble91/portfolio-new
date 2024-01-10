@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Navbar from "../Navbar/page.jsx";
+import Header from "../Header/page.jsx"
 
 export default function Experiences() {
   const slides = [
@@ -46,6 +48,7 @@ export default function Experiences() {
   };
   return (
     <>
+    <Header />
       <div className="flex relative flex-col bottom- text-center md:text-left xl:flex-row max-w-[600px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-center">
         <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-700 text-xl"></h3>
         <motion.div
@@ -115,6 +118,7 @@ export default function Experiences() {
           </div>
         </motion.div>
       </div>
+      <Navbar />
     </>
   );
 }

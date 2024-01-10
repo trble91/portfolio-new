@@ -1,9 +1,12 @@
 "use client";
 import React from "react";
+import Navbar from "../Navbar/page.jsx";
+import Header from "../Header/page.jsx"
 
 export default function Bio() {
   return (
     <>
+    <Header />
       <div className="flex relative flex-col text-center md:text-left xl:flex-row  xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-center">
         <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-800 text-2xl sm:text-gray-800">
           Bio
@@ -22,6 +25,7 @@ export default function Bio() {
           </p>
         </div>
       </div>
+      <Navbar />
     </>
   );
 }
