@@ -1,13 +1,11 @@
 "use client"
+
 import React from 'react'
-import Navbar from "../Navbar/page.jsx";
-import Header from "../Header/page.jsx"
 
 
 export default function Skills() {
   return (
     <>
-    <Header />
     <div className='flex relative text-center md:text-left xl:flex-row max-w-[200px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center snap-center'>
         <h3 className='absolute top-40 uppercase tracking-[20px] text-gray-700 text-2xl dark:text-gray-900'>
             Skills
@@ -38,7 +36,6 @@ export default function Skills() {
         </ul>
        </div>
     </div>
-      <Navbar />
   </>
   )
 }

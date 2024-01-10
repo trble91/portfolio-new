@@ -2,8 +2,6 @@
 
 import React, { useState } from "react";
 import axios from "axios";
-import Navbar from "../Navbar/page.jsx";
-import Header from "../Header/page.jsx"
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -32,7 +30,6 @@ const ContactForm = () => {
 
   return (
     <>
-      <Header />
       <div className="flex items-center top-10 justify-center min-h-screen snap-center">
         <form
           onSubmit={handleSubmit}
@@ -76,7 +73,6 @@ const ContactForm = () => {
           </button>
         </form>
       </div>
-      <Navbar />
     </>
   );
 };
