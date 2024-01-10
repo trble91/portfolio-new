@@ -2,34 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* Custom color variables */
-:root {
-  --foreground-rgb: rgb(51, 46, 52);
-  --background-start-rgb: rgb(87, 87, 177);
-  --background-end-rgb: rgb(26, 26, 97);
-}
-
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: rgb(61, 27, 67);
-    --background-start-rgb: rgb(8, 8, 9);
-    --background-end-rgb: rgb(39, 39, 69);
-  }
-
   /* Override text color for dark mode */
 * {
-   color: rgb(181, 174, 174) !important;
+   color: rgb(47, 47, 47) !important;
   }
-}
-
-/* Body styles */
-body {
-  color: rgb(var(--foreground-rgb));
-  /* Adjust the background gradient */
-  background: linear-gradient(
-    to bottom,
-    transparent,
-    rgb(var(--background-end-rgb))
-  ) rgb(var(--background-start-rgb));
-}
