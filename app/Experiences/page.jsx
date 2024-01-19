@@ -38,7 +38,7 @@ export default function Experiences() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
-    }, 8000); // Change the duration to control the slideshow speed
+    }, 5000); // Change the duration to control the slideshow speed
 
     return () => clearInterval(interval);
   });
@@ -88,7 +88,7 @@ export default function Experiences() {
                     {slides[currentSlide].title}
                   </h5>
                 </a>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-3 font-normal text-white dark:text-gray-200">
                   {slides[currentSlide].description}
                 </p>
                 <a
